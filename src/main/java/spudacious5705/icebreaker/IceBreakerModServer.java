@@ -1,10 +1,10 @@
 package spudacious5705.icebreaker;
 
-import net.fabricmc.api.ModInitializer;
+import net.fabricmc.api.DedicatedServerModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class IceBreakerMod implements ModInitializer {
+public class IceBreakerModServer implements DedicatedServerModInitializer {
 	public static final String MOD_ID = "ice-breaker-mod";
 
 	// This logger is used to write text to the console and the log file.
@@ -13,7 +13,7 @@ public class IceBreakerMod implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
-	public void onInitialize() {
+	public void onInitializeServer() {
 		LOGGER.info("Boat ice breaker loaded");
 	}
 }

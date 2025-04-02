@@ -16,6 +16,9 @@
 	"environment": "*",
 	"entrypoints": {
 		"server": [
+			"spudacious5705.icebreaker.IceBreakerModServer"
+		],
+		"main": [
 			"spudacious5705.icebreaker.IceBreakerMod"
 		]
 	},
