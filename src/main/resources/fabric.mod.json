@@ -1,26 +1,26 @@
 {
 	"schemaVersion": 1,
-	"id": "template-mod",
+	"id": "ice-breaker",
 	"version": "${version}",
-	"name": "Template Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Ice Breaker",
+	"description": "Lets boats break ice in front of them",
 	"authors": [
-		"Me!"
+		"Spudacious5705"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/template-mod/icon.png",
+	"icon": "assets/icebreaker/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"server": [
-			"spudacious5705.template.TemplateMod"
+			"spudacious5705.icebreaker.IceBreakerMod"
 		]
 	},
 	"mixins": [
-		"template-mod.mixins.json"
+		"icebreaker.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.10",

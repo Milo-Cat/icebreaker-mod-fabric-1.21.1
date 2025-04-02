@@ -22,9 +22,8 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"template-mod" {
+		"ice-breaker-mod" {
 			sourceSet sourceSets.main
-			sourceSet sourceSets.client
 		}
 	}
 

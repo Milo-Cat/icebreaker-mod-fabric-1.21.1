@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "spudacious5705.template.mixin",
+  "package": "spudacious5705.icebreaker.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "boatMixin"

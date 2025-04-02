@@ -1,12 +1,11 @@
-package spudacious5705.template;
+package spudacious5705.icebreaker;
 
 import net.fabricmc.api.DedicatedServerModInitializer;
-import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class TemplateMod implements DedicatedServerModInitializer {
+public class IceBreakerMod implements DedicatedServerModInitializer {
 	public static final String MOD_ID = "template-mod";
 
 	// This logger is used to write text to the console and the log file.
